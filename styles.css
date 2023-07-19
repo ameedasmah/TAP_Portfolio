@@ -1,6 +1,6 @@
 :root {
     --primary-color: #cc3931;
-    --text-red-color: #ae8c80;
+    --text-rose-color: #ae8c80;
     --text-gray-color: #3e4e68;
     --background-gray-color: #efefef;
     --background-white-color: #ffff;
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 .custom-color {
-    color: var(--text-red-color);
+    color: var(--text-rose-color);
     /* Replace with the desired color value */
 }
 
@@ -571,7 +571,7 @@ w .max-w-96 {
 }
 
 .text-red {
-    color: var(--text-red-color);
+    color: var(--text-rose-color);
 }
 
 .text-gray {
@@ -749,7 +749,7 @@ w .max-w-96 {
         flex-direction: row;
     }
     .lg\:items-start {
-        align-items: center;
+        align-items: start;
     }
     .lg\:justify-start {
         justify-items: start;
