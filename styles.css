@@ -1,0 +1,831 @@
+:root {
+    --primary-color: #cc3931;
+    --text-red-color: #ae8c80;
+    --text-gray-color: #3e4e68;
+    --background-gray-color: #efefef;
+    --background-white-color: #ffff;
+    --background-dark-color: #3e4e68;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-gray-color);
+}
+
+h1, h2, h3, h4, h5, p {
+    padding: 0;
+    margin: 0;
+}
+
+.custom-color {
+    color: var(--text-red-color);
+    /* Replace with the desired color value */
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 100%;
+}
+
+.max-w-7xl {
+    max-width: 80rem;
+    /* 1280px */
+}
+
+.max-w-6xl {
+    max-width: 72rem;
+    /* 1152px */
+}
+
+.max-w-5xl {
+    max-width: 64rem;
+    /* 1024px */
+}
+
+.max-w-4xl {
+    max-width: 56rem;
+    /* 896px */
+}
+
+.max-w-3xl {
+    max-width: 48rem;
+    /* 768px */
+}
+
+.max-w-2xl {
+    max-width: 42rem;
+    /* 672px */
+}
+.max-w-50P{
+    max-width: 50%;
+}
+
+.max-w-80P{
+    max-width: 80%;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+.max-w-12 {
+    max-width: 3rem;
+    /* 48px */
+}
+
+.max-w-14 {
+    max-width: 3.5rem;
+    /* 56px */
+}
+
+.max-w-16 {
+    max-width: 4rem;
+    /* 64px */
+}
+
+.max-w-20 {
+    max-width: 5rem;
+    /* 80px */
+}
+
+.max-w-24 {
+    max-width: 6rem;
+    /* 96px */
+}
+
+.max-w-28 {
+    max-width: 7rem;
+    /* 112px */
+}
+
+.max-w-32 {
+    max-width: 8rem;
+    /* 128px */
+}
+
+.max-w-36 {
+    max-width: 9rem;
+    /* 144px */
+}
+
+.max-w-40 {
+    max-width: 10rem;
+    /* 160px */
+}
+
+.max-w-44 {
+    max-width: 11rem;
+    /* 176px */
+}
+
+.max-w-48 {
+    max-width: 12rem;
+    /* 192px */
+}
+
+.max-w-52 {
+    max-width: 13rem;
+    /* 208px */
+}
+
+.max-w-56 {
+    max-width: 14rem;
+    /* 224px */
+}
+
+.max-w-60 {
+    max-width: 15rem;
+    /* 240px */
+}
+
+.max-w-64 {
+    max-width: 16rem;
+    /* 256px */
+}
+
+.max-w-72 {
+    max-width: 18rem;
+    /* 288px */
+}
+
+.max-w-80 {
+    max-width: 20rem;
+    /* 320px */
+}
+
+.w-75P {
+    width: 60%;
+}
+
+.h-120 {
+    height: 28rem;
+}
+
+.h-80 {
+    height: auto;
+}
+
+w .max-w-96 {
+    max-width: 24rem;
+    /* 384px */
+}
+
+
+.min-w-112 {
+    min-width: 500px;
+}
+
+
+
+.max-h-12 {
+    max-height: 3rem;
+    /* 48px */
+}
+
+.max-h-14 {
+    max-height: 3.5rem;
+    /* 56px */
+}
+
+.max-h-16 {
+    max-height: 4rem;
+    /* 64px */
+}
+
+.max-h-20 {
+    max-height: 5rem;
+    /* 80px */
+}
+
+.max-h-24 {
+    max-height: 6rem;
+    /* 96px */
+}
+
+.max-h-28 {
+    max-height: 7rem;
+    /* 112px */
+}
+
+.max-h-32 {
+    max-height: 8rem;
+    /* 128px */
+}
+
+.max-h-36 {
+    max-height: 9rem;
+    /* 144px */
+}
+
+.max-h-40 {
+    max-height: 10rem;
+    /* 160px */
+}
+
+.max-h-44 {
+    max-height: 11rem;
+    /* 176px */
+}
+
+.max-h-48 {
+    max-height: 12rem;
+    /* 192px */
+}
+
+.max-h-52 {
+    max-height: 13rem;
+    /* 208px */
+}
+
+.max-h-56 {
+    max-height: 14rem;
+    /* 224px */
+}
+
+.max-h-60 {
+    max-height: 15rem;
+    /* 240px */
+}
+
+.max-h-64 {
+    max-height: 16rem;
+    /* 256px */
+}
+
+.max-h-72 {
+    max-height: 18rem;
+    /* 288px */
+}
+
+.max-h-80 {
+    max-height: 20rem;
+    /* 320px */
+}
+
+.max-h-96 {
+    max-height: 24rem;
+    /* 384px */
+}
+
+.max-h-none {
+    max-height: none;
+}
+
+.max-h-full {
+    max-height: 100%;
+}
+
+
+
+.min-h-12 {
+    min-height: 3rem;
+    /* 48px */
+}
+
+.min-h-14 {
+    min-height: 3.5rem;
+    /* 56px */
+}
+
+.min-h-16 {
+    min-height: 4rem;
+    /* 64px */
+}
+
+.min-h-20 {
+    min-height: 5rem;
+    /* 80px */
+}
+
+.min-h-24 {
+    min-height: 6rem;
+    /* 96px */
+}
+
+.min-h-28 {
+    min-height: 7rem;
+    /* 112px */
+}
+
+.min-h-32 {
+    min-height: 8rem;
+    /* 128px */
+}
+
+.min-h-36 {
+    min-height: 9rem;
+    /* 144px */
+}
+
+.min-h-40 {
+    min-height: 10rem;
+    /* 160px */
+}
+
+.min-h-44 {
+    min-height: 11rem;
+    /* 176px */
+}
+
+.min-h-48 {
+    min-height: 12rem;
+    /* 192px */
+}
+
+.min-h-52 {
+    min-height: 13rem;
+    /* 208px */
+}
+
+.min-h-56 {
+    min-height: 14rem;
+    /* 224px */
+}
+
+.min-h-60 {
+    min-height: 15rem;
+    /* 240px */
+}
+
+.min-h-64 {
+    min-height: 16rem;
+    /* 256px */
+}
+
+.min-h-72 {
+    min-height: 18rem;
+    /* 288px */
+}
+
+.min-h-80 {
+    min-height: 20rem;
+    /* 320px */
+}
+
+.min-h-96 {
+    min-height: 24rem;
+    /* 384px */
+}
+
+.min-h-112 {
+    min-height: 30rem;
+    /* 384px */
+}
+
+.min-h-none {
+    min-height: none;
+}
+
+.min-h-full {
+    min-height: 100%;
+}
+
+
+
+
+
+.mt-1 {
+    margin-top: 0.25rem;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+    /* 16px */
+    ;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+    /* 32px */
+    ;
+}
+
+.mt-16 {
+    margin-top: 4rem;
+    /* 64px */
+}
+
+.mt-32 {
+    margin-top: 8rem;
+    /* 128px */
+    ;
+}
+
+.mt-36 {
+    margin-top: 11rem;
+    /* 128px */
+    ;
+}
+
+.pt-16 {
+    padding-top: 4rem;
+    /* 64px */
+}
+
+.pt-32 {
+    padding-top: 8rem;
+    /* 128px */
+    ;
+}
+
+.pt-44 {
+    padding-top: 11rem;
+    /* 176px */
+    ;
+}
+
+.px-2 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.px-4 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+
+.py-2 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.py-4 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+.gap-x-1 {
+    column-gap: 0.25rem;
+    /* 4px */
+}
+
+.gap-x-2 {
+    column-gap: 0.5rem;
+    /* 8px */
+}
+
+.gap-x-4 {
+    column-gap: 1rem;
+    /* 16px */
+}
+
+.gap-x-6 {
+    column-gap: 1.25rem;
+    /* 16px */
+}
+
+.gap-x-8 {
+    column-gap: 1.5rem;
+    /* 16px */
+}
+
+.-z-10 {
+    z-index: -1;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.z-50 {
+    z-index: 50;
+}
+
+.z-100 {
+    z-index: 100;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-start {
+    align-items: start;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-start {
+    justify-content: start;
+}
+
+.bg-white {
+    background: var(--background-white-color);
+}
+
+.bg-gray {
+    background: var(--background-gray-color);
+}
+
+.bg-red {
+    background: var(--primary-color);
+}
+
+.text-red {
+    color: var(--text-red-color);
+}
+
+.text-gray {
+    color: var(--text-gray-color);
+}
+
+.text-xs {
+    font-size: 0.75rem;
+    /* 12px */
+    line-height: 1rem;
+    /* 16px */
+}
+
+.text-sm {
+    font-size: 0.875rem;
+    /* 14px */
+    line-height: 1.25rem;
+    /* 20px */
+}
+
+.text-base {
+    font-size: 1rem;
+    /* 16px */
+    line-height: 1.5rem;
+    /* 24px */
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    /* 18px */
+    line-height: 1.75rem;
+    /* 28px */
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    /* 20px */
+    line-height: 1.75rem;
+    /* 28px */
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    /* 24px */
+    line-height: 2rem;
+    /* 32px */
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+    /* 30px */
+    line-height: 2.25rem;
+    /* 36px */
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+    /* 36px */
+    line-height: 2.5rem;
+    /* 40px */
+}
+
+.text-5xl {
+    font-size: 3rem;
+    /* 48px */
+    line-height: 1;
+}
+
+.text-6xl {
+    font-size: 3.75rem;
+    /* 60px */
+    line-height: 1;
+}
+
+.text-7xl {
+    font-size: 4.5rem;
+    /* 60px */
+    line-height: 1;
+}
+
+.text-8xl {
+    font-size: 6rem;
+    /* 96px */
+    line-height: 1;
+}
+
+.text-9xl {
+    font-size: 8rem;
+    /* 128px */
+    line-height: 1;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.right-180 {
+    right: 100px;
+}
+
+.min-height-700 {
+    min-height: 700px;
+}
+
+.rounded {
+    border-radius: 0.25rem;
+    /* 4px */
+}
+
+.rounded-md {
+    border-radius: 0.375rem;
+    /* 6px */
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+    /* 8px */
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+@media (min-width: 1280px) {
+    .xl\:hidden {
+        display: none;
+    }
+
+    .xl\:flex {
+        display: flex;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:hidden {
+        display: none;
+    }
+    .lg\:flex {
+        display: flex;
+    }
+    .lg\:px-8 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .lg\:flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .lg\:items-start {
+        align-items: center;
+    }
+    .lg\:justify-start {
+        justify-items: start;
+    }
+    .lg\:px-0{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .md\:hidden {
+        display: none;
+    }
+    .md\:flex {
+        display: flex;
+    }
+    .md\:text-5xl {
+        font-size: 3rem;
+        /* 48px */
+        line-height: 1;
+    }
+    .md\:w-90 {
+        width: 22rem;
+    }
+    .md\:h-120 {
+        height: 28rem;
+    }
+}
+
+@media (min-width: 640px) {
+    .sm\:hidden {
+        display: none;
+    }
+
+    .sm\:flex {
+        display: flex;
+    }
+    .text-2xl {
+        font-size: 1.5rem;
+        /* 24px */
+        line-height: 2rem;
+        /* 32px */
+    }
+    .sm\:mt-16{
+        margin-top: 4rem;
+        /* 64px */
+    }
+    .sm\:mt-8{
+        margin-top: 2rem;
+        /* 64px */
+    }
+    .sm\:mt-32{
+        margin-top: 8rem;
+        /* 64px */
+    }
+    .sm\:max-w-80{
+        max-width: 20rem;
+        /* 320px */
+}
+.sm\:text-base{
+    font-size: 1rem;
+    /* 16px */
+    line-height: 1.5rem;
+    /* 24px */
+}
+.sm\:pt-16{
+    padding-top: 4rem;
+    /* 64px */
+}
+.sm\:px-16{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    /* 64px */
+}
+.sm\:max-w-50P{
+max-width:50% ;
+}
+}
